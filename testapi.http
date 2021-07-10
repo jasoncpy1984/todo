@@ -1,0 +1,16 @@
+GET http://localhost:3042/api
+
+###
+
+POST http://localhost:3042/api/add
+Content-Type: application/json
+
+{
+    "item": "dog"
+}
+
+###
+DELETE http://localhost:3042/api/deleteOne
+
+###
+DELETE http://localhost:3042/api/deleteAll
